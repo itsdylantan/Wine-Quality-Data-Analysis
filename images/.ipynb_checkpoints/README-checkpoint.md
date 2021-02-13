@@ -1,0 +1,1 @@
+All the images we use from an external source should be put in this directory.

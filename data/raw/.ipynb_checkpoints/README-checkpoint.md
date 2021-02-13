@@ -1,0 +1,1 @@
+The raw data set that we are going to use will be put in this directory.
