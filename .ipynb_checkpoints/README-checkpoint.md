@@ -13,12 +13,12 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 
 ## Describe your dataset in about 150-200 words
 
-   The dataset is provided by the University of Minho in Portugal and the research was done by Paulo Cortez. The research was about the quality of wine based on physicochemical tests with 11 inputs including, fixed acidity, volatile acidity, citric acid, residual sugar, chlorides, free sulfur dioxide, total sulfur dioxide, density, pH, sulphates, and alcohol; and with one output variable: quality with a score between 0 and 10. The data was collected in 2009. The data was collected in 2009 from the red and white Vinho Verde wine samples in the north of Portugal. The purpose of the dataset is to improve wine production for consumers through physiochemical attributes and factors. Furthermore, since the goal is to improve wine quality and taste preferences for consumers, the area covered by the research is for business.  The dataset is multivariate and during the research, regression techniques were used to achieve promising results.
+The dataset is provided by the University of Minho in Portugal and the research was done by Paulo Cortez. The research was about the quality of wine based on physicochemical tests with 11 inputs including, fixed acidity, volatile acidity, citric acid, residual sugar, chlorides, free sulfur dioxide, total sulfur dioxide, density, pH, sulphates, and alcohol; and with one output variable: quality with a score between 0 and 10. The data was collected in 2009. The data was collected in 2009 from the red and white Vinho Verde wine samples in the north of Portugal. The purpose of the dataset is to improve wine production for consumers through physiochemical attributes and factors. Furthermore, since the goal is to improve wine quality and taste preferences for consumers, the area covered by the research is for business.  The dataset is multivariate and during the research, regression techniques were used to achieve promising results.
 
 ## Team Members
 
 - Ethan Nathanael: I am a second year student from Indonesia majoring in Data Science.
-- Person 2: one sentence about you!
+- Iwan Levin: I am a third year student from Manitoba majoring in computer science.
 - Person 3: one sentence about you!
 
 ## References
