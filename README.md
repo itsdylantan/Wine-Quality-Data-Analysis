@@ -19,8 +19,7 @@ The dataset is provided by the University of Minho in Portugal and the research 
 
 - **Ethan Nathanael**: I am a second year student from Indonesia majoring in Data Science.
 - Iwan Levin: I am a third year student from Manitoba majoring in computer science.
-- Person 3: one sentence about you!
-
+- **Dylan Tan**: I am a second year student from Malaysia majoring in Data Science
 ## References
 
 http://archive.ics.uci.edu/ml/datasets/Wine+Quality
