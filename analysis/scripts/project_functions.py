@@ -25,3 +25,10 @@ def load_and_process(url_or_path_to_csv_file):
 
 # Make sure to return the latest dataframe
     return df2
+
+def refine_data(dataframe): #Refine the dataset down by removing outiers and 
+    dataframe = (dataframe[dataframe['high_quality']==True]
+                 .drop(columns = ['high_quality'])
+                 )
+ 
+    return dataframe
