@@ -17,8 +17,8 @@ def load_and_process(url_or_path_to_csv_file):
 # Method Chain 2 (Create new columns, drop others, and do processing)
 
     df2 = (df1
-        .rename(columns={"free sulfur dioxide": "free SO2"})
-        .rename(columns={"total sulfur dioxide": "total SO2"})
+        .rename(columns = {"total sulfur dioxide":"total SO2"})
+        .drop(columns = ['free sulfur dioxide'])                  #we can just use total to avoid redundancy
         .assign(high_quality = lambda x: x['quality']>4) #removes outliers from quality
         .loc[df1['residual sugar']<20] #removes outliers from variables using limits determined by box plots
         .loc[df1['residual sugar']>2]
@@ -32,7 +32,7 @@ def load_and_process(url_or_path_to_csv_file):
 def refine_data(dataframe): #Refine the dataset down by removing outiers and 
     dataframe = (dataframe[dataframe['high_quality']==True]
                  .drop(columns = ['high_quality'])
-                 .reset_index() # resets the index for the data set after removing rows during data cleaning
+                 .reset_index(drop = True) # resets the index for the data set after removing rows during data cleaning
                  )
  
     return dataframe
