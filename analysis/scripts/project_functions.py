@@ -20,8 +20,11 @@ def load_and_process(url_or_path_to_csv_file):
         .rename(columns={"free sulfur dioxide": "free SO2"})
         .rename(columns={"total sulfur dioxide": "total SO2"})
         .assign(high_quality = lambda x: x['quality']>4) #removes outliers from quality
-        .loc[df1['residual sugar']<20] #removes outliers from residual sugars
+        .loc[df1['residual sugar']<20] #removes outliers from variables using limits determined by box plots
         .loc[df1['residual sugar']>2]
+          .loc[df1['fixed acidity']<9]
+        .loc[df1['volatile acidity']<0.52]
+        .loc[df1['citric acid']<0.55]
       )
 # Make sure to return the latest dataframe
     return df2
