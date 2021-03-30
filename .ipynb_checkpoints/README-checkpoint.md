@@ -9,7 +9,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 
 ## Describe your topic/interest in about 150-200 words
 
-   From this analytics project, we hope that we will be able to recognize how different variables can affect a wine's quality. With our analytics project, we hope that in the near future, we will be able to recognize what is considered as a bad or good quality wine. We are interested in this dataset mainly due to our passion and love for wine.Wine has so many different notes and texture that every bottle is unique in its own sense, and by doing this analytics project, we will be able to further improve our knowledge on wine. One question the group would like to explore is how different combinations of different variables work well together to create a good quality wine. We would also like to explore which variable has the biggest impact on the overall wine quality. Yes we believe we can build a dashboard for this project once we study and understand the data, but as of this moment, we are unsure as to what will be put into the dashboard.
+  From this analytics project, we hope that we will be able to recognize how different variables can affect a wine's quality. With our analytics project, we hope that in the near future, we will be able to recognize what is considered as a bad or good quality wine. We are interested in this dataset mainly due to our passion and love for wine. Wine has so many different notes and texture that every bottle is unique in its own sense, and by doing this analytics project, we will be able to further improve our knowledge on wine. One question the group would like to explore is how different combinations of different variables work well together to create a good quality wine. We will explore which variable has the biggest impact on the overall percieved wine quality. And we'll explore how different acids affect the overall percieved quality of the wine. Yes we believe we can build a dashboard for this project once we study and understand the data, but as of this moment, we are unsure as to what will be put into the dashboard.
 
 ## Describe your dataset in about 150-200 words
 
@@ -18,8 +18,11 @@ The dataset is provided by the University of Minho in Portugal and the research 
 ## Team Members
 
 - **Ethan Nathanael**: I am a second year student from Indonesia majoring in Data Science.
-- Iwan Levin: I am a third year student from Manitoba majoring in computer science.
-- *Dylan Tan*: I am a third year student from **Malaysia** majoring in computer science.
+- **Iwan Levin**: I am a third year student from Manitoba majoring in computer science.
+- **Dylan Tan**: I am a second year student from Malaysia majoring in Data Science
 ## References
 
-http://archive.ics.uci.edu/ml/datasets/Wine+Quality
+P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. 
+  Modeling wine preferences by data mining from physicochemical properties.
+  In Decision Support Systems, Elsevier, 47(4):547-553. ISSN: 0167-9236.
+  [dataset]https://archive.ics.uci.edu/ml/datasets/Wine+Quality
