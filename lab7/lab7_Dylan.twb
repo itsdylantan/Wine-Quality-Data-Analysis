@@ -1,0 +1,724 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20204.21.0315.1000                               -->
+<workbook original-version='18.1' source-build='2020.4.3 (20204.21.0315.1000)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='processed_data' inline='true' name='federated.1xwvzrt1saxqo41c2xs0i106tt5i' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='processed_data' name='textscan.1e7rgp30kyfja11699p14029jja3'>
+            <connection class='textscan' directory='C:/Users/dylan/course-project-group_1037/data/processed' filename='processed_data.csv' password='' port='0' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1e7rgp30kyfja11699p14029jja3' name='processed_data.csv' table='[processed_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_MY' separator=','>
+            <column datatype='real' name='fixed acidity' ordinal='0' />
+            <column datatype='real' name='volatile acidity' ordinal='1' />
+            <column datatype='real' name='citric acid' ordinal='2' />
+            <column datatype='real' name='residual sugar' ordinal='3' />
+            <column datatype='real' name='chlorides' ordinal='4' />
+            <column datatype='real' name='total SO2' ordinal='5' />
+            <column datatype='real' name='density' ordinal='6' />
+            <column datatype='real' name='pH' ordinal='7' />
+            <column datatype='real' name='sulphates' ordinal='8' />
+            <column datatype='real' name='alcohol' ordinal='9' />
+            <column datatype='integer' name='quality' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1e7rgp30kyfja11699p14029jja3' name='processed_data.csv' table='[processed_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_MY' separator=','>
+            <column datatype='real' name='fixed acidity' ordinal='0' />
+            <column datatype='real' name='volatile acidity' ordinal='1' />
+            <column datatype='real' name='citric acid' ordinal='2' />
+            <column datatype='real' name='residual sugar' ordinal='3' />
+            <column datatype='real' name='chlorides' ordinal='4' />
+            <column datatype='real' name='total SO2' ordinal='5' />
+            <column datatype='real' name='density' ordinal='6' />
+            <column datatype='real' name='pH' ordinal='7' />
+            <column datatype='real' name='sulphates' ordinal='8' />
+            <column datatype='real' name='alcohol' ordinal='9' />
+            <column datatype='integer' name='quality' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;RM&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_MY&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fixed acidity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[fixed acidity]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>fixed acidity</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_BBBFAAB9846A4140A6868152B699A421]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>volatile acidity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[volatile acidity]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>volatile acidity</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_BBBFAAB9846A4140A6868152B699A421]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>citric acid</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[citric acid]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>citric acid</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_BBBFAAB9846A4140A6868152B699A421]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>residual sugar</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[residual sugar]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>residual sugar</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_BBBFAAB9846A4140A6868152B699A421]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>chlorides</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[chlorides]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>chlorides</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_BBBFAAB9846A4140A6868152B699A421]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total SO2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total SO2]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>total SO2</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_BBBFAAB9846A4140A6868152B699A421]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>density</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[density]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>density</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_BBBFAAB9846A4140A6868152B699A421]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pH</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pH]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>pH</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_BBBFAAB9846A4140A6868152B699A421]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sulphates</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[sulphates]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>sulphates</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_BBBFAAB9846A4140A6868152B699A421]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>alcohol</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[alcohol]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>alcohol</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_BBBFAAB9846A4140A6868152B699A421]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>quality</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[quality]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>quality</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_BBBFAAB9846A4140A6868152B699A421]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='processed_data.csv' datatype='table' name='[__tableau_internal_object_id__].[processed_data.csv_BBBFAAB9846A4140A6868152B699A421]' role='measure' type='quantitative' />
+      <column caption='Alcohol' datatype='real' name='[alcohol]' role='measure' type='quantitative' />
+      <column caption='Chlorides' datatype='real' name='[chlorides]' role='measure' type='quantitative' />
+      <column caption='Citric Acid' datatype='real' name='[citric acid]' role='measure' type='quantitative' />
+      <column caption='Density' datatype='real' name='[density]' role='measure' type='quantitative' />
+      <column caption='Fixed Acidity' datatype='real' name='[fixed acidity]' role='measure' type='quantitative' />
+      <column caption='P H' datatype='real' name='[pH]' role='measure' type='quantitative' />
+      <column caption='Quality' datatype='integer' name='[quality]' role='measure' type='quantitative' />
+      <column caption='Residual Sugar' datatype='real' name='[residual sugar]' role='measure' type='quantitative' />
+      <column caption='Sulphates' datatype='real' name='[sulphates]' role='measure' type='quantitative' />
+      <column caption='Volatile Acidity' datatype='real' name='[volatile acidity]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='processed_data.csv' id='processed_data.csv_BBBFAAB9846A4140A6868152B699A421'>
+            <properties context=''>
+              <relation connection='textscan.1e7rgp30kyfja11699p14029jja3' name='processed_data.csv' table='[processed_data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_MY' separator=','>
+                  <column datatype='real' name='fixed acidity' ordinal='0' />
+                  <column datatype='real' name='volatile acidity' ordinal='1' />
+                  <column datatype='real' name='citric acid' ordinal='2' />
+                  <column datatype='real' name='residual sugar' ordinal='3' />
+                  <column datatype='real' name='chlorides' ordinal='4' />
+                  <column datatype='real' name='total SO2' ordinal='5' />
+                  <column datatype='real' name='density' ordinal='6' />
+                  <column datatype='real' name='pH' ordinal='7' />
+                  <column datatype='real' name='sulphates' ordinal='8' />
+                  <column datatype='real' name='alcohol' ordinal='9' />
+                  <column datatype='integer' name='quality' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Average Alcohol vs Quality Line Graph'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed_data' name='federated.1xwvzrt1saxqo41c2xs0i106tt5i' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1xwvzrt1saxqo41c2xs0i106tt5i'>
+            <column caption='Alcohol' datatype='real' name='[alcohol]' role='measure' type='quantitative' />
+            <column-instance column='[alcohol]' derivation='Avg' name='[avg:alcohol:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[quality]' derivation='None' name='[none:quality:qk]' pivot='key' type='quantitative' />
+            <column caption='Quality' datatype='integer' name='[quality]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[avg:alcohol:qk]</rows>
+        <cols>[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:quality:qk]</cols>
+      </table>
+      <simple-id uuid='{8E80C3DE-7466-42FD-9DA1-199F0807A245}' />
+    </worksheet>
+    <worksheet name='Average Fixed Acidity vs Quality'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed_data' name='federated.1xwvzrt1saxqo41c2xs0i106tt5i' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1xwvzrt1saxqo41c2xs0i106tt5i'>
+            <column-instance column='[quality]' derivation='Avg' name='[avg:quality:qk]' pivot='key' type='quantitative' />
+            <column caption='Fixed Acidity' datatype='real' name='[fixed acidity]' role='measure' type='quantitative' />
+            <column-instance column='[fixed acidity]' derivation='None' name='[none:fixed acidity:qk]' pivot='key' type='quantitative' />
+            <column caption='Quality' datatype='integer' name='[quality]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[avg:quality:qk]' field-type='quantitative' max='11' min='4' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+          </pane>
+        </panes>
+        <rows>[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[avg:quality:qk]</rows>
+        <cols>[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:fixed acidity:qk]</cols>
+      </table>
+      <simple-id uuid='{EFFE7C43-5EB3-418B-B7E2-5A86CE6F93F5}' />
+    </worksheet>
+    <worksheet name='Average SO2 vs Quality'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed_data' name='federated.1xwvzrt1saxqo41c2xs0i106tt5i' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1xwvzrt1saxqo41c2xs0i106tt5i'>
+            <column-instance column='[total SO2]' derivation='Avg' name='[avg:total SO2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[quality]' derivation='None' name='[none:quality:qk]' pivot='key' type='quantitative' />
+            <column caption='Quality' datatype='integer' name='[quality]' role='measure' type='quantitative' />
+            <column datatype='real' name='[total SO2]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[avg:total SO2:qk]</rows>
+        <cols>[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:quality:qk]</cols>
+      </table>
+      <simple-id uuid='{3EBC242B-A44D-4B12-B96A-02DCB0E37CD1}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' name='Average Alcohol vs Quality Line Graph'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[:Measure Names]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{8B378E45-42D3-4195-990E-A0023BD4D201}' />
+    </window>
+    <window class='worksheet' name='Average SO2 vs Quality'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{95ACDA54-4C1C-48A8-BE88-D8BC00F8EDD1}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Average Fixed Acidity vs Quality'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:fixed acidity:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{61E336E6-518F-4B5B-85F0-A656946B1571}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Average Alcohol vs Quality Line Graph' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Average Fixed Acidity vs Quality' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABYlAAAWJQFJUiTw
+      AAAb10lEQVR4nO2dd3Ac153nP90TkRORSIAARBAgSIJgEkUFUoICRUlrSVby2mVJtmRfSV67
+      vL66ujtbtiwHbe36XLd7t3v2WYFen2V7V2tbmZYsUaSYzAACIJFzIjIwSIOZwYTu+2MIiCQG
+      IGYwMxig36eKxeJwfv37vTf97X79e+/9WlJVVUUg0CjyUgcgECwl+nA4UVUVRVFQFAVJkmY+
+      VxQFWfZPg4HYTN/kLvcdChsIX5vC2Xf+9kGgvpbCJiwCkCQJnU4HMPM3gNvtRq/3L4RAbXQ6
+      nV8/pKIoqKp6RbyhjC+Sbfztu8X4CrdNUIdAEyODNLR0AOB0WLlQUx/MwwsEQSeIAlBwuFRs
+      E+MA2CYdOKbswTu8QBACgigAmdS0NPQ6760yMWUVZqMheIcXCEKAyAIJNE3wBKC4aaqrweVy
+      0trZS09HC26nk9r6ZjxipkEQoQQvCyTrWV+06YqPVucE7egCQUgQQyCBphECEGgaIQCBphEC
+      EGgaIQCBphECEGgaIQCBphECEGgaIQCBphECEGgaIQCBphECEGgaIQCBphECEGiaoApAVRVs
+      Nu82SFVxMzw0jNujBNOFQBBUgronuL2pkXMXagGoOV/B+OQ4FZf+LRBEIkEsiyKTV7ABa1U1
+      AA4FNuXkYhk8h0dVQVHweDxcXojO4/H47SVQG3/r26iqOvPHX1/+Euk2gdQGivQ2TRPCukAS
+      qKACsiQh+agLBPhd0yVQm3DVBYLwtSlS+24xvsJtEzwBKG6aGhoYGBigtbOXrNREyivKSUrL
+      wv+uEwjCQ9D3BF++LzhjbdCOLhCEBJEGFWgaIQCBphECEGgaIQCBphECEGgaIQCBphECEGga
+      IQCBphECEGgaIQCBphECEGgaIQCBphECEGgaIQCBphECEGgaIQCBphECEGgaIQCBphECEGia
+      kFWFaKipxOZwYUxIZ1O+2BwsiExCJAAPEzYPO3bu4MyZsyjrspHw1tpRlE8rxV3974UQqI2/
+      NX6mvx+u+CLZJpD6SJHepmmbEAlAx9rVKVRV12J1uIFP6+xc3pGBdmygP0Y4CmOtRBt/+24x
+      vsJtE7IhkKKoSIqL1WvWIksS+CiMFUjhqcXYhKMw1kq1CUQAkd4mCKEA0rNySF29FlkWz9mC
+      yCVkApAkmQCqCgoEYUVcngWaRghAoGmEAASaRghAoGmEAASaRghAoGmEAASaRghAoGmEAASa
+      RghAoGmEAASa5poCOHT0FIri33JTgWC5MOdiuN7+Qarrmnjng0+YtNm5f39pOOMSCMLCnHcA
+      t8fDex8eZc+NO8TJL1ixzHkHsNkcfP0rXxDr+QUrmjkFUJifG8YwBIKlYd7Le03Faepbu3B7
+      /Nt0LBAsF+YVQHZOHr1Nlbz4g+f55e/+yPCEPVxxCQRh4Rp3gL9QWdfOzXd+hrt35vHmB8cW
+      fOCB7nYqKytp7epfdJACQaiYVwD6uHSe/ZuvccOGDMZNWTz9yL4FH7ije4DNxcUM9nUuOsiF
+      4HJ76LNY/S6RIdA2cz4E15Uf5+WXf0nJjirsQ50U73+SDWtTF3zgOLNMZUUFOlMciqqiKgoe
+      j+eKE9Tj8fgd8Fw2te2D/PjXx/nCHZu4d3c+usuyV9N+w1EXKJhtihQbf/tuMb7CbeNbAKpK
+      7oatPPrIw2ws2UmU0UhCYrwfLhQs4w62X7+Tc2fLUSVppg7L1TVc9Hr/C1P4shkYtVG6LZeG
+      Lgv1XWd49oGdJMSYZn64cNUFmiu+5WwTSF2gQH2F22aOIZDKsZOnSTRLvPf2m/z+969T1dLr
+      x+Fldu4ooa21jS3bdxCO6ih9w1YKslL4r5+/meK8NL736mGqWgfEkEgwL3NIRyJamqJzyE5K
+      SgoAUSaDXwc2RsVRVFS02PgWTJ/Fyrb1mciyxH03FlC4NoWfv1XGrg1reODmgoCu5IKVz5z3
+      js3bdlHg/jT/HxOfGJaAAkFRVIbH7axKiAZAkmB9Vgo/eqqUV9+r4MXXjvHNR3aTmhizxJEK
+      Ig3fQyBJIjF5FWM9jbx64Jf864FXqGrtC3NoC8ejKNgcLuKijVd8HhNl5BsP7+L27Xl8/8AR
+      TtdeRBFDIsFlzPv0cPjYGYpKdpKf6KBtLHInwexONyoQbZ49TJMkib1b1pK/JoWfvXmW6rYB
+      vnjXFkzGkFWFFCwj5p0HuLO0lOKCNXxytoWC7IWnQMNNv8VKWmLMvJmK7LR4XvjSbYDE8weO
+      cHFwXDwgC+YXwNBQLx9+eATrxBhDoxPhislv+ixWMlJir/k9s0nP0/dt46G9G/j7145zuKJd
+      bPbROPOOA3bs2ce2m1Waz/yJuhFruGLymz6LlYzkawtgmhs2ZpGTkcjP3yyjtn2QL9+zlZgo
+      47UNBSuOee8AFScP8atf/YoT9cPsKMyO2CFD3/CkXwIAyEiO5btP7CElPorvvXqYlm5LxLZP
+      EDrmFIDTNkpr+0XGxyaISUqnqboMhysyl0UPjE6SluR/itOg1/HXd2zmS/ds5Z/+4zQHTzWL
+      pd8aY04BHDv4BxI27OFb//mbZOt6qe6ZwmSIvN1hiqIyNGYjNTE6IHtJktiyLp0fPn0bjV3D
+      /PzNs7T1jgQ5SkGkMuczQN66fP7t4w+RR9opr7rIZ770We+7viKMUasDk0FHtJ8z1VeTFBfF
+      3z56A229o/zzH8+woyCTh/cWiRnkFY6kzjPwHbf0035xgLXr1pMYY160M4/Hc8UJ5Xa7/V7I
+      dLVNY9cwrx+u4btP7J3Xxp8FXfYpNwcOltNnmeRrD+4kMyUu4PhWgk0gi+EivU3XWAznJT45
+      nS1bioNy8oeKQMf/8xFl0vPM/Tsp3ZbDj//fMf5S0yUekFcoCxrUj/U0cqqmI9SxBETfsH8p
+      0IUiSXBrSQ7PPb6Ht4438PK75Tic7qD7ESwt8wrAMthLc3Mz/eNuEgweXBGYIfF3DsBfVq+K
+      4wdPlWLU6/jeq4fp6B8LmS9B+Jl38PSnN/6dqNWFTHRU0TnmIWvjjXz5wdvCFNrC6LNYyVzA
+      LPBiMBl0PLm/hLKGHv7H707w4C0buH1HXkQmBQT+Ma8AkmLMDDtBQmXj5mK6LJGVHnR7FMYm
+      p0iOiwq5L0mS2Fm4mtyMpJlFdV/9q+1iBnmZM68Abtr/WTq7utFvfox1a9OYckfWPMCk3YlB
+      J2M0hCdVKUkSqYnRPPf4Ht44Vs93XznMMw/soCA7JaAtg4KlZ14B9HQ0U1ZRh94UTVT8PeRl
+      JIUrrgUxbnMSZTKg14VXmHqdzCO3FrFhrXeJ9e3br+MzNxUgy0IEy415z5zklDTiY0yMWYaw
+      jNn8OKxCW2MdF85X8u4HhwlVArF/xEp68vzLoEOFJEkUX5fOD58qpb5ziH/47QlGROGwZce8
+      E2HtTfXEpK4hSnLhkkwkxfuXbx/rb6fXHkVhThqqquLxeK4otnv1xNhCuNzm4KlmbFMuHrl1
+      /r3HiqL4XeR3uiTKQuxUFQ6eauLDc208sa+YbQWZ+CPJxfZDpNmE09dibeYcAo0P99HQUEfb
+      wbdpGvLwtWf+k98CaOroZ+v1N8Bl94Crr9aBXL2nbfosVr/G3/76Wmg9HEmC+24qoCg3lVff
+      LefPZa184c5ictITFuxrMf0QSpvp70dqfIu1mVMApz5+m3M9Eg/dvJPxGjvr1qT45cAx2o05
+      KRu9BCAhSdKsK6osy35fmadtVFWlf2SSW7fmXvMY03cAf+sC+Rvf+qwUfvDlWzld38s/vn6K
+      otxUHivdSHJc1Ly+F9MPobYJpO8C9bUUNnNa7nv0qzzz+Xvp6LUgD9ZR3tjtlxNz4ho2r1/t
+      l40/qCqMWadIiousZRo6nczekhx+8uxdrE6J5flXj/D64VqsdudShybwwbzPANP4Mx6ej2Au
+      hnO5PXzzf7/PP3797mtucA9kQVegleEub5OqwqjVzlvHGyhr6OGBWwq5bWsuBr1uTptA/ITa
+      RrOL4aaRJCni3hQzNjmF2agP2xxAIEiSd5n1k/tLeO7xPVS1DPDff3GIsoYePErkLSvRIsu2
+      Nsj0GqDlMAElSRKZKXF867HdNHYN89uPqjn4lyY+d8dmCrKSlzo8TbPsBbCckCSJwrWreP7J
+      vZQ19PDS2+fITovnsduKWJ268IxRODlb34vD5aF0W+5ShxISlq8AhhdWCiUS0elkbtiYxfaC
+      TA6Vt/Hia8fZVZTFZ/dsID7GtNThzeBye3j9SC02h4u16QmsWx1ZKwGCQWQN7P1gOd4Brsag
+      17F/Vz4vfqUUk0HHd14+xLsnG7FPuZY6NADOt/STFGPk2Qd28rM3zjJhW3mZrGUrgMHRyRVT
+      7DY2yshf37GZ55+8lc7+Mb790iFOVHUtadEuRVH506km7tm9npL8dK7fsJoDB8tX3M64ZSkA
+      j6IwPO5gVULol0GHk7SkGJ59cCffenQ3hyva+O6rH1PTNrAkBX07+scYtzkpvi4NgIdvLWLM
+      OsWHZa2sJA0sSwGMWh3ERhlm5dNXApIkkZORyHce38NjpZv49Z8v8NN/O0ln/1hYr74HTzVy
+      9/XrZlbaGvQ6vv7QLt4+0UDrCiobsywFYBm3kxIfWB2g5YIsSWzNz+BHT5eya8MafvrvJ3np
+      nXJGrY6Q+x6ZsFPTNsjNxdlXfJ4cH8XT923nZ2+eZXKFzGwvSwH0j0ySHuRKEJGKQa/j1q25
+      /OSZu0hPiuHbLx3i95cyM6Hig7Mt7C3J8flWoK356ezasJpX3qtYEc8Dy1IAyzkFGgiSBGaj
+      ngf3bODvvno7Y5NTfPvlwwyMTAbdl83h4viFTvZdv26OWCQe2lvEqNXBR2Wty14Ey3IeoM9i
+      ZVfRmqUOY0lIioviqXu3kp0ax/99q4znHt+DLog74k7VXqQwO2XeRYYGvY5vPLSL5175mNeP
+      1GLU6zAZdJiMeu/fBh3F16Vx340FET9Tv2wFsNznABaDJEmUbsuhsrmf98+0cO/u/AWdaE63
+      B0mWr3iH8uW4PQrvn2nmmft3XvN4yfFR/Mvf3oOiqDjdHqacHqZcbqZcHqx2J6+8U05B9ioK
+      sv1bRh9ult0QyOVWGJ+cIjl+ZaVA/UWSJJ6+bxvvn2nm4uC1X14yanXw/IFP+OnvTjI46nvo
+      VNM2SIzJQG7Gwl6IqJNlDHodMWYjyfFRZKbEkZuRyOa8NL64bzOvvFeOy+3/i6zDybITgH3K
+      hS6MlSAimZSEaD53+yZ+8XbZvKtLrXYnf/+b49xSnMWW/HS+f+AIH5a1zrJ57y+N3Hvj+qBs
+      7i9Zl87atATeOdm46GOFkmUngHHbFFEmPYYwV4KIVG7enE1qYjRvHW/w+UA6aXfyD789we6N
+      Wdy3ez37d+Xzw6dKKWvo4Yf/epSuAe+70roGxhgcnWT7+sygxCVJEk/uL+HQuTa6BiK3mt6y
+      O4sGR22kJy2PZdDhQJIknrp3G4cr2mnrHb3i/xxON//z9VNsyk3l/lsKkSTv1tRVidH8t8/f
+      zF07r+Mnvz3BH4/W88bReu6+IT+oD9Rx0SY+f+dmDrxXcc0XjwyN2fjDJ3Vhmee4nGUngP4R
+      m6YfgH0RG2XkibtLeOmdczhd3jG3y+3hf/3+NNlp8TxaunFWGUdZlrhly1p+9JVSeocnqGju
+      Y++WnKDHduOmLMxGPYcr2n3+v6pCTfsgL/zyCAOjNr7z8iHeP918zQ1DLreHj8pa+fbLh/m4
+      vC3gdOyCtkQGwoSln+bOXhJXZZKXlQ4EZ0vkK++WU5Cdwt6Shf9YS7UlMpw2qqryi7fPER9j
+      4pHbNvJ//niWaLOBr35m+8zJP5cfVfVmcoz62X0UjC2Rg6OTfP/AEX74dCmrEj6dwfcoCu+f
+      bubPZ1v4xsM3kJsez4h1itf+fIHeYStP7C9hY27qFeKdtDs5XNHO+2eaKchO4YYNq/movB2X
+      28OX79nK2vSEeWN1exRau4fJXBVPXLQpdAI4d/YU6ZlZJKWkzdTPXKwAVFXlxV8f49HSTRT6
+      kV7TggDA+7D73MsfsyohmsRYM88+uPOKqnlLuSf4gzPNnG/p57987iZkWWLS4eTV9yqYmJzi
+      bx7aRWKsecZGVVWq2wb4zYdVpCfF8IW7tmAy6PiorJVPKjvYss47x5CZEuutNaXTcbK6i/84
+      XMuuotU8tLfoillsVfW+RutEVRcnq7uwO12AROm23NAJ4JPDH7KpeBuNjS3sunEXkqIsujCW
+      qqr85qNq7r+pwK+NI9N+/fkRAy0EsNQFoeo6hjhRfZEn9hXPypQF6ieQsihX+/J4FH782nH2
+      7byOvIxE/ukPZ9ian8HDewtnFjVebeN0eTh6oZM3jnkf8G/Zspa7r7+OlMtS4JfbTNicvHm8
+      gfKmXr5452a2rEunrKGHI5UdDIzY2L0pi5s3Z5GeGM2YzcnB0y2hE0BNxVmS1+TR2dbOzht2
+      ovPRwHBdkbRyBwBmxsK+2rrUVSE6+8d48dfHkCWJL91Twq6iNVcc15eNqoJtyrvwLtpk8DlE
+      u3oo2NY7yivvldM9OEFJfjq3b8+j+Lo0ZElGkrjiThMyAaiKh56eHpJWZRBt9t6OQvGOsIXa
+      aEUAobAJlgBUVeV0XTdrVsWTnRYftPh82bg9CvYpF3HRs0cKl9uEbCmEJOtYk5V97S8KNIMk
+      SezemBUWX3qd7PPkv5pllwYVCIKJEIBA0wgBCDSNEIBA0wgBCDSNEIBA0wgBCDSNEIBA0wgB
+      CDSNEIBA0wgBCDSNEIBA0wgBCDSNEIBA0wgBCDSNEIBA0wgBCDSNEIBA04RsS6Sl/yJdfRbi
+      klO5Ljs45fYEgmATMgF09w2yqXgr+iAUWhUIQkXIBJCcEEfNhfO4ZRPbizegXKoLdHkRCo/H
+      /9LZgdqoqhpQXSB/i2aEs03hsvG37xbjK9w2IRNAXFIqmWvzOHu2HFWSZsqLXF1mxN8yGIHa
+      hKssCoSvTZHad4vxFW6bkAlgyjZOR0cneesLxZO2IGIJmQBSM7NJzRR1gQSRjbg4CzSNEIBA
+      0wgBCDSNEIBA0wgBCDSNEIBA0wgBCDSNEIBA0wgBCDSNEIBA0wgBCDSNEIBA0wgBCDSNEIBA
+      04RUAIrHjTuAHTsCQbgIoQBUzp89SmVNW+hcCASLJGQCGO5uJTY9F4MYZAkimNCcnoqLc+fr
+      mBjupaOrC5fHv43lAkG4CM2WSNnAvnv/CtfUGDGdYxh0ojSKIDIJ2Z5gAIMpgcL1CaF0IRAs
+      ipAKYBpVVVEUBUVRrvh8ulaQPwRqAwRUF8hfwtmmSO27xfgKt01YBCBdqgvkq8ZOIHV3ArGR
+      ZdlvASiKErb4ItnG375bjK9w2yxpjiaQTg2XDXh/+HD4Wmk24fS1WBtJDeQ+LxCsEESWXqBp
+      dC+88MIL4XTY29lKa3snnT2DZGamIwE97U00tV/EjZ6E2Ogrvq+qTqorq+i+2I5TF0tirBmn
+      dZiyyjp6u7uITkglyujrUUbl1KF3ccVmkRRjRFXcVJSdpquzC2NiGjEm3zZ1ZUe5aDOSmRwH
+      KDRUV9Hd3c3whJO0lESfbepqquZCez85q9NnjtNw7igdViOrU+J82oz0dfBJWS35ud7qeRPD
+      vVyoa8Jqd7Eq2XfmzDU5zBsfnGBj4ToARvs7qWpopbOjm4ys1VydbVZVD6eOH2VkbBxjTAJR
+      Rj0e5wSnz1TQ3d1DcnqmzxR1+ZmTDAyPoOrMxEWb8bgd1Fyooqe7C4dqJik+epbNxFAXp8ob
+      GJ+0k56aPNMPHXXl1HZbyc5ImWWjOkf4+JNzWCetJCYlo9fJTFlHqLhQw8i4nbRVybNtFCcn
+      jh1ndGwcc1wSZoMOx2gfZVWNdHd1kbAqHZN+9nW9ue4CXT196MyxxJiNKO4pzp0tC/8dICMr
+      h7VZmaget/cD1U1HVy8mvUx01OyOBQOFGwtJjo/G5fLaOO1WzPEppMSbmXS4fPrpbWsgPm31
+      zCScc3IIQ1w21+8qprPJ9/KMiaEeFFMCKNNZBYmCTcXk563Bbrf7tHHZRrFMGTBL7pnPxod6
+      kMyJKB7Fp43icdLeN05SrGHms6aWdmKjTERHR+NrUKqqCjUNnWRlfipC28Q4yelZmCU3Th+u
+      VMWNddKGMSqWuCgjAP2t7eRs2kZRbirdfSO+omNiYgKd3khifAwAss7E5pKtZGckYbNP+WzT
+      +MgQssFASvKnJ61rcoQxlxGD5LsfbCMWFL2BuIQkDJdO2vbmZkzRMURHR/nsB49zCrtjClN0
+      PLFmb/85JseJSc4kMUqPw+mebeSaoLt/AlmnJ8rk7QfrcC/xGevCLwDV42LYMopeJ6MogKrg
+      VvVsKCqiofb8rO9LkoRtYhyHR0JVvI3zKDpUtw27U0Vmdud6nFZqW/uQXDZGRkZQ8WZ1JFlC
+      kmRU1dcPonCusoZoIwwPW1BUFZDo62iirn2YrcWFvlpDRXklMTEmLJYRnG4PqqpQcb4WswEs
+      w8P4StA1VZWji4pl1GKZEbDT6SZvfSGW7iYmXbPj62+vx4GRMYuFsQmb17tswGEdAZ2Mxz3b
+      RtaZuGv/vWSvMnChrtPbShVkHUiyhKr46geZW++4m8K8TC5cqAVAApprz9M3aWDjOt8vO1mz
+      fhu37CphqKWOiUuNPnu2nPhYE5ZhCy4fF4OY9HXcuWcXetsAXYMTAExNucjKXYcy0snA5Oze
+      05vjuGvfPtYkqVTVdwPgUQ2oznGcyhypa8UFpjiKCnKoqfa2SVVBkuXwC6Czo52pKSdOl5OJ
+      wU4ujrhJT46iuqYWgzl+1vfdjnE6uvtxuV24XW7q6xtQFA92hwO7w47bR8dKOjPbthVjNpkw
+      Go00NzWii0pmcqiNsjOVZObl+ohMYuv2HUSbzRiNRga727BYrZRX1hNlUOnpG/TZnqLirSTG
+      RmM0GnCM9tE1MEHJ9u3ERHl9+8pRZOdvZM2qeAxGI5LHTlNLF7nZGVRX12Bz6zD6GJYkZeSw
+      PicDg9GIXg/19U143C4cUw7sdhu+MhmKY4KK8xdoaukmMTme+voG0nPW0FxZSU1zLxnpSbON
+      3FPUVF+grqGFmIREGhsbcEwOUdfSh+SaZHBkwmc/DHR3UF1dy7gio3OO0dLRy+atO4iLNnvb
+      6SNbMz7cR1V1NT2WSeKi9dTXN5OTl01jTTWDVg+xptmnp8s2SuX5CzS19pKUEk99fSMejxu7
+      w47dbkdRfPSEKZEE/SS1dY3ExCdRX19PbHIaQ10N4c8CqYqCoqpIsnzFyaEois98s6qqqIqC
+      ijctqaoqsiyheBRUSUKWZObKhE03beYFD6rqvQLK0pzps0+7w3sHmJm8kyR0c6RFVVW99O3p
+      r17yBcjzpOkUVUFCQlVBlsCjKEiSjDzPW3UUVUGWJBTF2yZFUZAkyWfK1juZp6CqErIsXeo7
+      eaZNc6V5p3+j6f6e9uNtm+/4pudNpEu/h3qpn+frh09tvPEpinqpbQpcq01IyJK04PNh2ten
+      55C3H0QaVKBpRBpUoGmEAASaRghAoGmEAASaRghAoGmEAASaRghAoGmEAASaRghAoGmEAASa
+      5v8DPxNMuME3FXgAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Average SO2 vs Quality' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
