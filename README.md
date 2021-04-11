@@ -3,7 +3,7 @@
 
 - Your title can change over time.
 
-## Project Dashboard
+## Project Tableau Workbook link
 https://us-west-2b.online.tableau.com/#/site/data301/workbooks/346921/views
 
 ## Milestones
