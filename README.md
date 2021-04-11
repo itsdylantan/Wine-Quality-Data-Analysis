@@ -3,6 +3,9 @@
 
 - Your title can change over time.
 
+## Project Dashboard
+https://us-west-2b.online.tableau.com/#/site/data301/workbooks/346921/views
+
 ## Milestones
 
 Details for Milestone are available on Canvas (left sidebar, Course Project) or [here](https://firas.moosvi.com/courses/data301/project/milestone01.html).
