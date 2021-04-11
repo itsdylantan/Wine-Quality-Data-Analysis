@@ -1,0 +1,1611 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20204.21.0315.1000                               -->
+<workbook source-build='2020.4.3 (20204.21.0315.1000)' source-platform='win' version='18.1' xml:base='https://us-west-2b.online.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <_.fcp.SetMembershipControl.true...SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <repository-location id='lab7draft_Dylan' path='/t/data301/workbooks' revision='1.0' site='data301' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='processed_data' inline='true' name='federated.1xwvzrt1saxqo41c2xs0i106tt5i' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='processed_data' name='textscan.1e7rgp30kyfja11699p14029jja3'>
+            <connection class='textscan' directory='C:/Users/dylan/course-project-group_1037/data/processed' filename='processed_data.csv' password='' port='0' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1e7rgp30kyfja11699p14029jja3' name='processed_data.csv' table='[processed_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_MY' separator=','>
+            <column datatype='real' name='fixed acidity' ordinal='0' />
+            <column datatype='real' name='volatile acidity' ordinal='1' />
+            <column datatype='real' name='citric acid' ordinal='2' />
+            <column datatype='real' name='residual sugar' ordinal='3' />
+            <column datatype='real' name='chlorides' ordinal='4' />
+            <column datatype='real' name='total SO2' ordinal='5' />
+            <column datatype='real' name='density' ordinal='6' />
+            <column datatype='real' name='pH' ordinal='7' />
+            <column datatype='real' name='sulphates' ordinal='8' />
+            <column datatype='real' name='alcohol' ordinal='9' />
+            <column datatype='integer' name='quality' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1e7rgp30kyfja11699p14029jja3' name='processed_data.csv' table='[processed_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_MY' separator=','>
+            <column datatype='real' name='fixed acidity' ordinal='0' />
+            <column datatype='real' name='volatile acidity' ordinal='1' />
+            <column datatype='real' name='citric acid' ordinal='2' />
+            <column datatype='real' name='residual sugar' ordinal='3' />
+            <column datatype='real' name='chlorides' ordinal='4' />
+            <column datatype='real' name='total SO2' ordinal='5' />
+            <column datatype='real' name='density' ordinal='6' />
+            <column datatype='real' name='pH' ordinal='7' />
+            <column datatype='real' name='sulphates' ordinal='8' />
+            <column datatype='real' name='alcohol' ordinal='9' />
+            <column datatype='integer' name='quality' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;RM&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_MY&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fixed acidity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[fixed acidity]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>fixed acidity</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_BBBFAAB9846A4140A6868152B699A421]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>volatile acidity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[volatile acidity]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>volatile acidity</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_BBBFAAB9846A4140A6868152B699A421]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>citric acid</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[citric acid]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>citric acid</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_BBBFAAB9846A4140A6868152B699A421]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>residual sugar</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[residual sugar]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>residual sugar</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_BBBFAAB9846A4140A6868152B699A421]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>chlorides</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[chlorides]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>chlorides</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_BBBFAAB9846A4140A6868152B699A421]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total SO2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total SO2]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>total SO2</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_BBBFAAB9846A4140A6868152B699A421]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>density</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[density]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>density</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_BBBFAAB9846A4140A6868152B699A421]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pH</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pH]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>pH</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_BBBFAAB9846A4140A6868152B699A421]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sulphates</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[sulphates]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>sulphates</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_BBBFAAB9846A4140A6868152B699A421]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>alcohol</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[alcohol]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>alcohol</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_BBBFAAB9846A4140A6868152B699A421]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>quality</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[quality]</local-name>
+            <parent-name>[processed_data.csv]</parent-name>
+            <remote-alias>quality</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_BBBFAAB9846A4140A6868152B699A421]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='processed_data.csv' datatype='table' name='[__tableau_internal_object_id__].[processed_data.csv_BBBFAAB9846A4140A6868152B699A421]' role='measure' type='quantitative' />
+      <column caption='Alcohol' datatype='real' name='[alcohol]' role='measure' type='quantitative' />
+      <column caption='Chlorides' datatype='real' name='[chlorides]' role='measure' type='quantitative' />
+      <column caption='Citric Acid' datatype='real' name='[citric acid]' role='measure' type='quantitative' />
+      <column caption='Density' datatype='real' name='[density]' role='measure' type='quantitative' />
+      <column caption='Fixed Acidity' datatype='real' name='[fixed acidity]' role='measure' type='quantitative' />
+      <column caption='P H' datatype='real' name='[pH]' role='measure' type='quantitative' />
+      <column caption='Quality' datatype='integer' name='[quality]' role='measure' type='quantitative' />
+      <column caption='Residual Sugar' datatype='real' name='[residual sugar]' role='measure' type='quantitative' />
+      <column caption='Sulphates' datatype='real' name='[sulphates]' role='measure' type='quantitative' />
+      <column caption='Volatile Acidity' datatype='real' name='[volatile acidity]' role='measure' type='quantitative' />
+      <column-instance column='[quality]' derivation='None' name='[none:quality:ok]' pivot='key' type='ordinal' />
+      <group caption='Action (Quality)' hidden='true' name='[Action (Quality)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:quality:ok]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='false' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/dylan/OneDrive/Documents/My Tableau Repository/Datasources/processed_data.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='04/11/2021 07:13:55 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='processed_data' increment-value='%null%' refresh-type='create' rows-inserted='3005' timestamp-start='2021-04-11 19:13:55.569' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>fixed acidity</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[fixed acidity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>fixed acidity</remote-alias>
+              <ordinal>0</ordinal>
+              <family>processed_data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>46</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_BBBFAAB9846A4140A6868152B699A421]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>volatile acidity</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[volatile acidity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>volatile acidity</remote-alias>
+              <ordinal>1</ordinal>
+              <family>processed_data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>59</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_BBBFAAB9846A4140A6868152B699A421]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>citric acid</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[citric acid]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>citric acid</remote-alias>
+              <ordinal>2</ordinal>
+              <family>processed_data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>57</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_BBBFAAB9846A4140A6868152B699A421]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>residual sugar</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[residual sugar]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>residual sugar</remote-alias>
+              <ordinal>3</ordinal>
+              <family>processed_data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>237</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_BBBFAAB9846A4140A6868152B699A421]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>chlorides</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[chlorides]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>chlorides</remote-alias>
+              <ordinal>4</ordinal>
+              <family>processed_data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>103</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_BBBFAAB9846A4140A6868152B699A421]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total SO2</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[total SO2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total SO2</remote-alias>
+              <ordinal>5</ordinal>
+              <family>processed_data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>203</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_BBBFAAB9846A4140A6868152B699A421]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>density</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[density]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>density</remote-alias>
+              <ordinal>6</ordinal>
+              <family>processed_data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>610</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_BBBFAAB9846A4140A6868152B699A421]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pH</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[pH]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pH</remote-alias>
+              <ordinal>7</ordinal>
+              <family>processed_data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>85</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_BBBFAAB9846A4140A6868152B699A421]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>sulphates</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[sulphates]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>sulphates</remote-alias>
+              <ordinal>8</ordinal>
+              <family>processed_data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>70</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_BBBFAAB9846A4140A6868152B699A421]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>alcohol</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[alcohol]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>alcohol</remote-alias>
+              <ordinal>9</ordinal>
+              <family>processed_data.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_BBBFAAB9846A4140A6868152B699A421]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>quality</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[quality]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>quality</remote-alias>
+              <ordinal>10</ordinal>
+              <family>processed_data.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed_data.csv_BBBFAAB9846A4140A6868152B699A421]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='processed_data.csv' id='processed_data.csv_BBBFAAB9846A4140A6868152B699A421'>
+            <properties context=''>
+              <relation connection='textscan.1e7rgp30kyfja11699p14029jja3' name='processed_data.csv' table='[processed_data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_MY' separator=','>
+                  <column datatype='real' name='fixed acidity' ordinal='0' />
+                  <column datatype='real' name='volatile acidity' ordinal='1' />
+                  <column datatype='real' name='citric acid' ordinal='2' />
+                  <column datatype='real' name='residual sugar' ordinal='3' />
+                  <column datatype='real' name='chlorides' ordinal='4' />
+                  <column datatype='real' name='total SO2' ordinal='5' />
+                  <column datatype='real' name='density' ordinal='6' />
+                  <column datatype='real' name='pH' ordinal='7' />
+                  <column datatype='real' name='sulphates' ordinal='8' />
+                  <column datatype='real' name='alcohol' ordinal='9' />
+                  <column datatype='integer' name='quality' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='EDA (Exploratory Data Analysis)' type='sheet' worksheet='Variables vs quality' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='EDA (Exploratory Data Analysis)' />
+      </command>
+    </action>
+    <action caption='Filter 2 (generated)' name='[Action2]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='EDA (Exploratory Data Analysis)' type='sheet' worksheet='Count of wine (based on variable) vs Quality' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='EDA (Exploratory Data Analysis)' />
+      </command>
+    </action>
+    <action caption='Filter 3 (generated)' name='[Action3]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Research Question' type='sheet' worksheet='Variables vs quality' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Research Question' />
+      </command>
+    </action>
+    <action caption='Filter 4 (generated)' name='[Action4]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Research Question' type='sheet' worksheet='Average SO2 vs Quality' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Research Question' />
+      </command>
+    </action>
+    <action caption='Filter 5 (generated)' name='[Action5]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Research Question' type='sheet' worksheet='Average Alcohol % vs Quality Line Graph' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Research Question' />
+      </command>
+    </action>
+    <action caption='Filter 6 (generated)' name='[Action6]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Research Question' type='sheet' worksheet='Average Quality vs Fixed Acidity' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Research Question' />
+      </command>
+    </action>
+    <action caption='Filter 7 (generated)' name='[Action7]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='EDA (Extended)' type='sheet' worksheet='Average Alcohol % vs Quality Line Graph' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='EDA (Extended)' />
+      </command>
+    </action>
+    <action caption='Filter 8 (generated)' name='[Action8]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='EDA (Extended)' type='sheet' worksheet='Average Quality vs Fixed Acidity' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='EDA (Extended)' />
+      </command>
+    </action>
+    <action caption='Filter 9 (generated)' name='[Action9]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='EDA (Extended)' type='sheet' worksheet='Average SO2 vs Quality' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='EDA (Extended)' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Average Alcohol % vs Quality Line Graph'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed_data' name='federated.1xwvzrt1saxqo41c2xs0i106tt5i' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1xwvzrt1saxqo41c2xs0i106tt5i'>
+            <column caption='Alcohol' datatype='real' name='[alcohol]' role='measure' type='quantitative' />
+            <column-instance column='[alcohol]' derivation='Avg' name='[avg:alcohol:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[quality]' derivation='None' name='[none:quality:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[quality]' derivation='None' name='[none:quality:qk]' pivot='key' type='quantitative' />
+            <column caption='Quality' datatype='integer' name='[quality]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[Action (Quality)]'>
+            <groupfilter function='level-members' level='[none:quality:ok]' user:ui-action-filter='[Action9]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[avg:alcohol:qk]' included-values='in-range' />
+          <filter class='quantitative' column='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:quality:qk]' included-values='all' />
+          <slices>
+            <column>[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:quality:qk]</column>
+            <column>[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[avg:alcohol:qk]</column>
+            <column>[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[Action (Quality)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[avg:alcohol:qk]' scope='rows' value='Avg. Alcohol (%)' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[avg:alcohol:qk]</rows>
+        <cols>[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:quality:qk]</cols>
+      </table>
+      <simple-id uuid='{8E80C3DE-7466-42FD-9DA1-199F0807A245}' />
+    </worksheet>
+    <worksheet name='Average Quality vs Fixed Acidity'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed_data' name='federated.1xwvzrt1saxqo41c2xs0i106tt5i' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1xwvzrt1saxqo41c2xs0i106tt5i'>
+            <column-instance column='[quality]' derivation='Avg' name='[avg:quality:qk]' pivot='key' type='quantitative' />
+            <column caption='Fixed Acidity' datatype='real' name='[fixed acidity]' role='measure' type='quantitative' />
+            <column-instance column='[fixed acidity]' derivation='None' name='[none:fixed acidity:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[quality]' derivation='None' name='[none:quality:ok]' pivot='key' type='ordinal' />
+            <column caption='Quality' datatype='integer' name='[quality]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[Action (Quality)]'>
+            <groupfilter function='level-members' level='[none:quality:ok]' user:ui-action-filter='[Action9]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[avg:quality:qk]' included-values='in-range' />
+          <filter class='quantitative' column='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:fixed acidity:qk]' included-values='in-range'>
+            <min>3.7999999999999998</min>
+            <max>8.9000000000000004</max>
+          </filter>
+          <slices>
+            <column>[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:fixed acidity:qk]</column>
+            <column>[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[Action (Quality)]</column>
+            <column>[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[avg:quality:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[avg:quality:qk]' field-type='quantitative' max='11.0' min='4.0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+          </pane>
+        </panes>
+        <rows>[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[avg:quality:qk]</rows>
+        <cols>[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:fixed acidity:qk]</cols>
+      </table>
+      <simple-id uuid='{EFFE7C43-5EB3-418B-B7E2-5A86CE6F93F5}' />
+    </worksheet>
+    <worksheet name='Average SO2 vs Quality'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed_data' name='federated.1xwvzrt1saxqo41c2xs0i106tt5i' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1xwvzrt1saxqo41c2xs0i106tt5i'>
+            <column-instance column='[total SO2]' derivation='Avg' name='[avg:total SO2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[quality]' derivation='None' name='[none:quality:qk]' pivot='key' type='quantitative' />
+            <column caption='Quality' datatype='integer' name='[quality]' role='measure' type='quantitative' />
+            <column datatype='real' name='[total SO2]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[avg:total SO2:qk]' included-values='in-range' />
+          <filter class='quantitative' column='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:quality:qk]' included-values='all' />
+          <slices>
+            <column>[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:quality:qk]</column>
+            <column>[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[avg:total SO2:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[avg:total SO2:qk]</rows>
+        <cols>[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:quality:qk]</cols>
+      </table>
+      <simple-id uuid='{3EBC242B-A44D-4B12-B96A-02DCB0E37CD1}' />
+    </worksheet>
+    <worksheet name='Count of wine (based on variable) vs Quality'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed_data' name='federated.1xwvzrt1saxqo41c2xs0i106tt5i' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1xwvzrt1saxqo41c2xs0i106tt5i'>
+            <column caption='Alcohol' datatype='real' name='[alcohol]' role='measure' type='quantitative' />
+            <column-instance column='[alcohol]' derivation='Count' name='[cnt:alcohol:qk]' pivot='key' type='quantitative' />
+            <column caption='Fixed Acidity' datatype='real' name='[fixed acidity]' role='measure' type='quantitative' />
+            <column-instance column='[alcohol]' derivation='None' name='[none:alcohol:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[fixed acidity]' derivation='None' name='[none:fixed acidity:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[quality]' derivation='None' name='[none:quality:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[total SO2]' derivation='None' name='[none:total SO2:qk]' pivot='key' type='quantitative' />
+            <column caption='Quality' datatype='integer' name='[quality]' role='measure' type='quantitative' />
+            <column datatype='real' name='[total SO2]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:alcohol:qk]' included-values='in-range'>
+            <min>8.0</min>
+            <max>14.0</max>
+          </filter>
+          <filter class='quantitative' column='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:fixed acidity:qk]' included-values='in-range'>
+            <min>3.7999999999999998</min>
+            <max>8.9000000000000004</max>
+          </filter>
+          <filter class='quantitative' column='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:quality:qk]' included-values='all' />
+          <filter class='quantitative' column='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:total SO2:qk]' included-values='in-range'>
+            <min>24.0</min>
+            <max>313.0</max>
+          </filter>
+          <slices>
+            <column>[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:quality:qk]</column>
+            <column>[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:fixed acidity:qk]</column>
+            <column>[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:alcohol:qk]</column>
+            <column>[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:total SO2:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[cnt:alcohol:qk]' scope='rows' value='Count of Wine' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+          </pane>
+        </panes>
+        <rows>[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[cnt:alcohol:qk]</rows>
+        <cols>[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:quality:qk]</cols>
+      </table>
+      <simple-id uuid='{4B1D12EB-B514-40D4-9EFB-D5E6EC5C8DDA}' />
+    </worksheet>
+    <worksheet name='Variables vs quality'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed_data' name='federated.1xwvzrt1saxqo41c2xs0i106tt5i' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1xwvzrt1saxqo41c2xs0i106tt5i'>
+            <column caption='Alcohol' datatype='real' name='[alcohol]' role='measure' type='quantitative' />
+            <column-instance column='[alcohol]' derivation='Avg' name='[avg:alcohol:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[total SO2]' derivation='Avg' name='[avg:total SO2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[quality]' derivation='None' name='[none:quality:qk]' pivot='key' type='quantitative' />
+            <column caption='Quality' datatype='integer' name='[quality]' role='measure' type='quantitative' />
+            <column datatype='real' name='[total SO2]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[avg:alcohol:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[avg:total SO2:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[avg:alcohol:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[avg:total SO2:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='quantitative' column='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[avg:alcohol:qk]' included-values='in-range' />
+          <filter class='quantitative' column='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:quality:qk]' included-values='all' />
+          <slices>
+            <column>[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[:Measure Names]</column>
+            <column>[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[avg:alcohol:qk]</column>
+            <column>[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:quality:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[Multiple Values]' scope='rows' value='Selected variable' />
+            <encoding attr='space' class='0' field='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:quality:qk]' field-type='quantitative' max='10' min='5' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[Multiple Values]' field-type='quantitative' max='156.99620383031649' min='15.8477550072671' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[:Measure Names]' value='Variables&#10;'>
+              <formatted-text>
+                <run>Variables&#10;</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[Multiple Values]</rows>
+        <cols>[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:quality:qk]</cols>
+      </table>
+      <simple-id uuid='{1C3D40D7-53C4-4295-AA88-00DD99A4CC2B}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='EDA (Exploratory Data Analysis)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <datasources>
+        <datasource caption='processed_data' name='federated.1xwvzrt1saxqo41c2xs0i106tt5i' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1xwvzrt1saxqo41c2xs0i106tt5i'>
+        <column caption='Alcohol' datatype='real' name='[alcohol]' role='measure' type='quantitative' />
+        <column caption='Fixed Acidity' datatype='real' name='[fixed acidity]' role='measure' type='quantitative' />
+        <column-instance column='[alcohol]' derivation='None' name='[none:alcohol:qk]' pivot='key' type='quantitative' />
+        <column-instance column='[fixed acidity]' derivation='None' name='[none:fixed acidity:qk]' pivot='key' type='quantitative' />
+        <column-instance column='[quality]' derivation='None' name='[none:quality:qk]' pivot='key' type='quantitative' />
+        <column-instance column='[total SO2]' derivation='None' name='[none:total SO2:qk]' pivot='key' type='quantitative' />
+        <column caption='Quality' datatype='integer' name='[quality]' role='measure' type='quantitative' />
+        <column datatype='real' name='[total SO2]' role='measure' type='quantitative' />
+      </datasource-dependencies>
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='42' param='horz' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='10' param='vert' w='98400' x='800' y='1000'>
+              <zone _.fcp.SetMembershipControl.false...type='title' _.fcp.SetMembershipControl.true...type-v2='title' h='7250' id='11' w='98400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='solid' />
+                  <format attr='border-width' value='2' />
+                  <format attr='margin' value='4' />
+                  <format attr='background-color' value='#f5ead7' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='18125' id='12' w='98400' x='800' y='8250'>
+                <formatted-text>
+                  <run fontalignment='1' fontcolor='#000000' fontsize='10' lmargin='-1080'>This EDA aims to find relationships between the different variables contained in wine, and how they affect the quality of white wine. We will look for the correlation between each variable and the overall perceived quality of wine. This allows us to further improve our understanding on the variables that affect the quality.</run>
+                  <run fontalignment='1' lmargin='-1080'>Æ&#10;&#10;</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='solid' />
+                  <format attr='border-width' value='2' />
+                  <format attr='margin' value='4' />
+                  <format attr='background-color' value='#e6ecf0' />
+                </zone-style>
+              </zone>
+              <zone fixed-size='271' h='34875' id='17' is-fixed='true' name='Variables vs quality' w='98400' x='800' y='26375'>
+                <layout-cache minheight='228' minwidth='178' type-h='scalable' type-w='scalable' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                  <format attr='background-color' value='#f9e9e0' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='37750' id='8' w='98400' x='800' y='61250'>
+                <zone h='37750' id='13' name='Count of wine (based on variable) vs Quality' w='78962' x='800' y='61250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='background-color' value='#f9e9e0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='9204' id='20' name='Count of wine (based on variable) vs Quality' param='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:quality:qk]' values='database' w='19438' x='79762' y='61250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='background-color' value='#f0eae8' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='9220' id='37' name='Count of wine (based on variable) vs Quality' param='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:total SO2:qk]' values='database' w='19438' x='79762' y='79375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='background-color' value='#f7f1f6' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='10405' id='40' name='Count of wine (based on variable) vs Quality' param='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:fixed acidity:qk]' values='database' w='19438' x='79762' y='88595'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='background-color' value='#dfedeb' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='8921' id='43' name='Count of wine (based on variable) vs Quality' param='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:alcohol:qk]' values='database' w='19438' x='79762' y='70454'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='background-color' value='#faf4e7' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run fontalignment='1'>&lt;Sheet Name&gt;</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1000' minheight='1000' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='57' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='56' param='vert' w='98400' x='800' y='1000'>
+                <zone _.fcp.SetMembershipControl.false...type='title' _.fcp.SetMembershipControl.true...type-v2='title' h='7250' id='11' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='2' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f5ead7' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='18125' id='12' w='98400' x='800' y='8250'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#000000' fontsize='10' lmargin='-1080'>This EDA aims to find relationships between the different variables contained in wine, and how they affect the quality of white wine. We will look for the correlation between each variable and the overall perceived quality of wine. This allows us to further improve our understanding on the variables that affect the quality.</run>
+                    <run fontalignment='1' lmargin='-1080'>Æ&#10;&#10;</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='2' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#e6ecf0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='271' h='34875' id='17' is-fixed='true' name='Variables vs quality' w='98400' x='800' y='26375'>
+                  <layout-cache minheight='228' minwidth='178' type-h='scalable' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f9e9e0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='9204' id='20' name='Count of wine (based on variable) vs Quality' param='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:quality:qk]' values='database' w='19438' x='79762' y='61250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f0eae8' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='9220' id='37' name='Count of wine (based on variable) vs Quality' param='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:total SO2:qk]' values='database' w='19438' x='79762' y='79375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f7f1f6' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='10405' id='40' name='Count of wine (based on variable) vs Quality' param='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:fixed acidity:qk]' values='database' w='19438' x='79762' y='88595'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#dfedeb' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='8921' id='43' name='Count of wine (based on variable) vs Quality' param='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:alcohol:qk]' values='database' w='19438' x='79762' y='70454'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#faf4e7' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='37750' id='13' is-fixed='true' name='Count of wine (based on variable) vs Quality' w='78962' x='800' y='61250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f9e9e0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{5FE90AEA-FD2F-42D9-83B9-6D20922AFAC0}' />
+    </dashboard>
+    <dashboard name='EDA (Extended)'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <datasources>
+        <datasource caption='processed_data' name='federated.1xwvzrt1saxqo41c2xs0i106tt5i' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1xwvzrt1saxqo41c2xs0i106tt5i'>
+        <column caption='Alcohol' datatype='real' name='[alcohol]' role='measure' type='quantitative' />
+        <column-instance column='[alcohol]' derivation='Avg' name='[avg:alcohol:qk]' pivot='key' type='quantitative' />
+        <column-instance column='[quality]' derivation='Avg' name='[avg:quality:qk]' pivot='key' type='quantitative' />
+        <column-instance column='[total SO2]' derivation='Avg' name='[avg:total SO2:qk]' pivot='key' type='quantitative' />
+        <column caption='Quality' datatype='integer' name='[quality]' role='measure' type='quantitative' />
+        <column datatype='real' name='[total SO2]' role='measure' type='quantitative' />
+      </datasource-dependencies>
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='14' param='horz' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='98000' id='12' w='98400' x='800' y='1000'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='28375' id='3' param='horz' w='76000' x='800' y='11000'>
+                <zone fixed-size='630' h='28375' id='5' is-fixed='true' name='Average Alcohol % vs Quality Line Graph' w='63800' x='800' y='11000'>
+                  <layout-cache minheight='228' minwidth='167' type-h='scalable' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='background-color' value='#e6ecf0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='28375' id='15' name='Average Alcohol % vs Quality Line Graph' param='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[avg:alcohol:qk]' values='database' w='12200' x='64600' y='11000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='background-color' value='#dfedeb' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone h='30000' id='6' name='Average Quality vs Fixed Acidity' w='63800' x='800' y='39375'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='solid' />
+                  <format attr='border-width' value='1' />
+                  <format attr='margin' value='4' />
+                  <format attr='background-color' value='#e6ecf0' />
+                </zone-style>
+              </zone>
+              <zone h='29625' id='7' name='Average SO2 vs Quality' w='63800' x='800' y='69375'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='solid' />
+                  <format attr='border-width' value='1' />
+                  <format attr='margin' value='4' />
+                  <format attr='background-color' value='#e6ecf0' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='88000' id='9' w='22400' x='76800' y='11000'>
+                <formatted-text>
+                  <run bold='true' fontsize='7' underline='true'>Dataset Overview</run>
+                  <run>Æ&#10;&#10;</run>
+                  <run fontsize='7'>The dataset is provided by the University of Minho in Portugal and the research was done by Paulo Cortez. The research was about the quality of wine based on physicochemical tests with 11 inputs including, fixed acidity, volatile acidity, citric acid, residual sugar, chlorides, free sulfur dioxide, total sulfur dioxide, density, pH, sulphates, and alcohol; and with one output variable: quality with a score between 0 and 10. The data was collected in 2009 from the white Vinho Verde wine samples in the north of Portugal. The purpose of the dataset is to improve wine production for consumers through physiochemical attributes and factors. Furthermore, since the goal is to improve wine quality and taste preferences for consumers, the area covered by the research is for business.</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='solid' />
+                  <format attr='border-width' value='1' />
+                  <format attr='margin' value='4' />
+                  <format attr='background-color' value='#f9e9e0' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='10000' id='8' w='98400' x='800' y='1000'>
+                <formatted-text>
+                  <run bold='true' fontalignment='1' fontsize='15'>&lt;Sheet Name&gt;</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='solid' />
+                  <format attr='border-width' value='2' />
+                  <format attr='margin' value='4' />
+                  <format attr='background-color' value='#f5ead7' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='30000' id='16' name='Average Quality vs Fixed Acidity' param='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[avg:quality:qk]' values='database' w='12200' x='64600' y='39375'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                  <format attr='background-color' value='#dfedeb' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='29625' id='17' name='Average SO2 vs Quality' param='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[avg:total SO2:qk]' values='database' w='12200' x='64600' y='69375'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                  <format attr='background-color' value='#dfedeb' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1050' minheight='1050' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='29' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='28' param='vert' w='98400' x='800' y='1000'>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='10000' id='8' w='98400' x='800' y='1000'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontsize='15'>&lt;Sheet Name&gt;</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='2' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f5ead7' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='28375' id='15' name='Average Alcohol % vs Quality Line Graph' param='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[avg:alcohol:qk]' values='database' w='12200' x='64600' y='11000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#dfedeb' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='217' h='28375' id='5' is-fixed='true' name='Average Alcohol % vs Quality Line Graph' w='63800' x='800' y='11000'>
+                  <layout-cache minheight='228' minwidth='167' type-h='scalable' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#e6ecf0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='88000' id='9' w='22400' x='76800' y='11000'>
+                  <formatted-text>
+                    <run bold='true' fontsize='7' underline='true'>Dataset Overview</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run fontsize='7'>The dataset is provided by the University of Minho in Portugal and the research was done by Paulo Cortez. The research was about the quality of wine based on physicochemical tests with 11 inputs including, fixed acidity, volatile acidity, citric acid, residual sugar, chlorides, free sulfur dioxide, total sulfur dioxide, density, pH, sulphates, and alcohol; and with one output variable: quality with a score between 0 and 10. The data was collected in 2009 from the white Vinho Verde wine samples in the north of Portugal. The purpose of the dataset is to improve wine production for consumers through physiochemical attributes and factors. Furthermore, since the goal is to improve wine quality and taste preferences for consumers, the area covered by the research is for business.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f9e9e0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='30000' id='16' name='Average Quality vs Fixed Acidity' param='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[avg:quality:qk]' values='database' w='12200' x='64600' y='39375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#dfedeb' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='230' h='30000' id='6' is-fixed='true' name='Average Quality vs Fixed Acidity' w='63800' x='800' y='39375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#e6ecf0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='29625' id='17' name='Average SO2 vs Quality' param='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[avg:total SO2:qk]' values='database' w='12200' x='64600' y='69375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#dfedeb' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='227' h='29625' id='7' is-fixed='true' name='Average SO2 vs Quality' w='63800' x='800' y='69375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#e6ecf0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{7AC90F88-E15D-4293-B39A-B326EDEB2CFA}' />
+    </dashboard>
+    <dashboard name='Research Question'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>Research Question</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <datasources>
+        <datasource caption='processed_data' name='federated.1xwvzrt1saxqo41c2xs0i106tt5i' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1xwvzrt1saxqo41c2xs0i106tt5i'>
+        <column caption='Alcohol' datatype='real' name='[alcohol]' role='measure' type='quantitative' />
+        <column-instance column='[alcohol]' derivation='Avg' name='[avg:alcohol:qk]' pivot='key' type='quantitative' />
+        <column-instance column='[quality]' derivation='None' name='[none:quality:qk]' pivot='key' type='quantitative' />
+        <column caption='Quality' datatype='integer' name='[quality]' role='measure' type='quantitative' />
+      </datasource-dependencies>
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='2' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='34' param='horz' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='18' param='vert' w='98400' x='800' y='1000'>
+              <zone _.fcp.SetMembershipControl.false...type='title' _.fcp.SetMembershipControl.true...type-v2='title' fixed-size='57' h='8125' id='19' is-fixed='true' w='98400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='solid' />
+                  <format attr='border-width' value='3' />
+                  <format attr='margin' value='4' />
+                  <format attr='background-color' value='#f5ead7' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='89875' id='16' w='98400' x='800' y='9125'>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='89875' id='15' w='29600' x='69600' y='9125'>
+                  <formatted-text>
+                    <run bold='true' underline='true'>Research Question</run>
+                    <run underline='true'>: </run>
+                    <run>
+Which variable has the strongest impact on the overall perceived quality of white wine?
+
+</run>
+                    <run bold='true' underline='true'>Conclusion</run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#555555'>Using the graph, if we filter out average alcohol percentage, we can see that there is a  strong positive correlation between alcohol percentage and the quality of wine. As alcohol percentage increases, so does the perceived quality of wine. This could be due to how higher alcohol % gives a richer body to the wine, which improves the overall perceived quality of wine.</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run fontcolor='#555555'>Moreover, when we filter out fixed acidity or average total SO2, we see that the two variables give a negative/inverse correlation with quality, with fixed acidity having a weak correlation and average total SO2 having a strong negative correlation. Therefore, the higher the fixed acidity or toal SO2, the lower the quality of wine.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='background-color' value='#dfedeb' />
+                  </zone-style>
+                </zone>
+                <zone h='42519' id='1' name='Variables vs quality' w='44900' x='800' y='9125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='background-color' value='#f9e9e0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='14977' id='13' name='Variables vs quality' param='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:quality:qk]' values='database' w='23900' x='45700' y='9125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='background-color' value='#f5f1f0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='12566' id='14' mode='checkdropdown' name='Variables vs quality' param='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[:Measure Names]' values='database' w='23900' x='45700' y='39078'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='background-color' value='#f5f1f0' />
+                  </zone-style>
+                </zone>
+                <zone h='47356' id='25' name='Average Quality vs Fixed Acidity' w='23900' x='45700' y='51644'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='14976' id='29' name='Variables vs quality' param='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[avg:alcohol:qk]' values='database' w='23900' x='45700' y='24102'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='background-color' value='#f5f1f0' />
+                  </zone-style>
+                </zone>
+                <zone h='47356' id='24' name='Average SO2 vs Quality' w='22933' x='800' y='51644'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='47356' id='26' name='Average Alcohol % vs Quality Line Graph' w='21967' x='23733' y='51644'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run fontalignment='1'>Research Question</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1500' minheight='1500' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='102' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='101' param='vert' w='98400' x='800' y='1000'>
+                <zone _.fcp.SetMembershipControl.false...type='title' _.fcp.SetMembershipControl.true...type-v2='title' fixed-size='57' h='8125' id='19' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='3' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f5ead7' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='14977' id='13' name='Variables vs quality' param='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[none:quality:qk]' values='database' w='23900' x='45700' y='9125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f5f1f0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='12566' id='14' mode='checkdropdown' name='Variables vs quality' param='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[:Measure Names]' values='database' w='23900' x='45700' y='39078'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f5f1f0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='14976' id='29' name='Variables vs quality' param='[federated.1xwvzrt1saxqo41c2xs0i106tt5i].[avg:alcohol:qk]' values='database' w='23900' x='45700' y='24102'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f5f1f0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='42519' id='1' is-fixed='true' name='Variables vs quality' w='44900' x='800' y='9125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f9e9e0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='89875' id='15' w='29600' x='69600' y='9125'>
+                  <formatted-text>
+                    <run bold='true' underline='true'>Research Question</run>
+                    <run underline='true'>: </run>
+                    <run>
+Which variable has the strongest impact on the overall perceived quality of white wine?
+
+</run>
+                    <run bold='true' underline='true'>Conclusion</run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#555555'>Using the graph, if we filter out average alcohol percentage, we can see that there is a  strong positive correlation between alcohol percentage and the quality of wine. As alcohol percentage increases, so does the perceived quality of wine. This could be due to how higher alcohol % gives a richer body to the wine, which improves the overall perceived quality of wine.</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run fontcolor='#555555'>Moreover, when we filter out fixed acidity or average total SO2, we see that the two variables give a negative/inverse correlation with quality, with fixed acidity having a weak correlation and average total SO2 having a strong negative correlation. Therefore, the higher the fixed acidity or toal SO2, the lower the quality of wine.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#dfedeb' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='47356' id='24' is-fixed='true' name='Average SO2 vs Quality' w='22933' x='800' y='51644'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='47356' id='26' is-fixed='true' name='Average Alcohol % vs Quality Line Graph' w='21967' x='23733' y='51644'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='47356' id='25' is-fixed='true' name='Average Quality vs Fixed Acidity' w='23900' x='45700' y='51644'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{C3E84171-A5C4-4FF9-A31C-86E1021C5727}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='44'>
+    <window class='worksheet' name='Average Alcohol % vs Quality Line Graph'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8B378E45-42D3-4195-990E-A0023BD4D201}' />
+    </window>
+    <window class='worksheet' name='Average Quality vs Fixed Acidity'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{61E336E6-518F-4B5B-85F0-A656946B1571}' />
+    </window>
+    <window class='worksheet' name='Average SO2 vs Quality'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{95ACDA54-4C1C-48A8-BE88-D8BC00F8EDD1}' />
+    </window>
+    <window class='worksheet' name='Variables vs quality'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{95564946-C7CE-4325-9B00-88C406BC8D00}' />
+    </window>
+    <window class='worksheet' name='Count of wine (based on variable) vs Quality'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4AEEFE92-1EE8-40AC-9D66-D99281FB5BC6}' />
+    </window>
+    <window class='dashboard' name='Research Question'>
+      <viewpoints>
+        <viewpoint name='Average Alcohol % vs Quality Line Graph'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Average Quality vs Fixed Acidity'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Average SO2 vs Quality'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Variables vs quality'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{FA63A38D-0A98-453E-B458-596372A68BA9}' />
+    </window>
+    <window class='dashboard' name='EDA (Exploratory Data Analysis)'>
+      <viewpoints>
+        <viewpoint name='Count of wine (based on variable) vs Quality'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Variables vs quality'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{0B61FE53-922B-49D2-8B75-E392E0C1BB16}' />
+    </window>
+    <window class='dashboard' maximized='true' name='EDA (Extended)'>
+      <viewpoints>
+        <viewpoint name='Average Alcohol % vs Quality Line Graph'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Average Quality vs Fixed Acidity'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Average SO2 vs Quality'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='5' />
+      <simple-id uuid='{EE38400B-464B-4F72-B5D0-EE88DCF172C0}' />
+    </window>
+  </windows>
+</workbook>
